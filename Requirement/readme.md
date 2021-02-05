@@ -45,27 +45,27 @@ STRENGTHS
 
 1. It is user friendly
 2. Good battery backup
-3.Stores the data 
-4.It is convenient to carry
-5.Broad variety of products are available. 
+3. Stores the data 
+4. It is convenient to carry
+5. Broad variety of products are available. 
 
 WEAKNESS
 
-1.Cost is high
-2.Accurate sensors are required
-3.Launching products is slower.
-4.Growth is less because of high feature gadgets are already in the market
+1. Cost is high
+2. Accurate sensors are required
+3. Launching products is slower.
+4. Growth is less because of high feature gadgets are already in the market
 
 OPPORTUNITIES
 
-1.Small size and less weight
-2.Its convenient to carry
-3.Replacement is easy
-ut and log back in to refresh your tok
+1. Small size and less weight
+2. Its convenient to carry
+3. Replacement is easy
+
 THREATS
 
-1.Their slower growth in technological innovation will bring a significant threat in the upcoming dynamic world.
-2.Competitors are more for products.
+1. Their slower growth in technological innovation will bring a significant threat in the upcoming dynamic world.
+2. Competitors are more for products.
 
 
 # 4W and 1H
