@@ -10,6 +10,7 @@
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
+<<<<<<< HEAD
                 "cwd": "${workspaceFolder}"
             },
             "problemMatcher": [
@@ -28,6 +29,8 @@
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
+=======
+>>>>>>> 6b9cea693dd8df15261dce5e906af564bb62f20c
             "options": {
                 "cwd": "${workspaceFolder}"
             },
