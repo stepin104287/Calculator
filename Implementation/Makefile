@@ -1,11 +1,11 @@
-all: run doc test clean 
+all: run clean 
 #all provides sequence of command
 SRC = main.c\
 src/add.c\
 src/cuberoot.c\
 src/divide.c\
 src/exponential.c\
-src/ modular_division.c\
+src/modular_division.c\
 src/multiplication.c\
 src/percentage.c\
 src/squareroot.c\
@@ -27,7 +27,7 @@ INC = -Iunity -Iheader
 PROJECT_NAME= Calculator.out
 
 
-TEST_OUTPUT= $(BUILD)/Test_$(PROJECT_NAME).out
+#TEST_OUTPUT= $(BUILD)/Test_$(PROJECT_NAME).out
 
 
 
