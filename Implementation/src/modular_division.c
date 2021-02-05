@@ -1,7 +1,7 @@
 #include "modular_division.h"
 #include <stdio.h>
 
-int modular_division_int(int a,int b)
+int modular_division(int a,int b)
 {
     int c;
     c=a%b;
@@ -19,7 +19,7 @@ int modular_division_int(int a,int b)
 }
 
 
-float modular_division_float(float a,float b)
+float modular_division(float a,float b)
 {
     float c;
     c=a%b;
