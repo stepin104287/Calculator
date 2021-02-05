@@ -1,6 +1,6 @@
-#ifndef MODULAR_DIVISION_H_INCLUDED
-#define MODULAR_DIVISION_H_INCLUDED
+#ifndef __MULTIPLICATION_H__
+#define __MULTIPLICATION_H__
 
-int modular_division(int,int);
-
-#endif // MODULAR_DIVISION_H_INCLUDED
+int multiplication(int,int);
+float multiplication_float(float,float);
+#endif
