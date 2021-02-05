@@ -9,7 +9,7 @@ src/modular_division.c\
 src/multiplication.c\
 src/percentage.c\
 src/squareroot.c\
-src/subtraction\
+src/subtraction.c\
 
 #TEST_SRC=main.c test/test_invertercpp.c src/delay.c  src/error_cal.c  src/sequence.c  src/set_iload.c  src/Dutycycle.c unity/unity.c unity/unity.h unity/unity_internals
 
