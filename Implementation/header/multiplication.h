@@ -1,0 +1,6 @@
+#ifndef MODULAR_DIVISION_H_INCLUDED
+#define MODULAR_DIVISION_H_INCLUDED
+
+int modular_division(int,int);
+
+#endif // MODULAR_DIVISION_H_INCLUDED
