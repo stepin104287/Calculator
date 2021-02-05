@@ -1,1 +1,1 @@
-![](images/multiplication_behavioral.png)
+![](/Design/low level Design/multiplication_behavioral.png)
