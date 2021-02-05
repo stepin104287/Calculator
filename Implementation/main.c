@@ -34,55 +34,40 @@ int main()
     //switching functions
     switch (operation)
     {
+        case 0:
+            add(A,B);
+            break;    
+            
+        case 1:
+            subtraction(A,B);
+            break;
 
-        //exit choice{
+        case 2:
+            multiplication(A,B);
+            break;
+        case 3:
+            divide_int(A,B);
+            break;
+        case 4:
+            modular_division(A,B);
+            break;
+        case 5:
+            squareroot(A);
+            break;
+        case 6:
+            percentage(A,B);
+            break;
+        case 7:
+            cuberoot(A);
+            break;
+        case 8:
+            exponential(A);
+            break;
         case 9:
 
             printf("you have chosen to exit\n");
             break;
 
-        //addition function
-        case 0:
-            //call your Addition fuunction
-            break;    
-            
-
-        //simple division function
-        case 3:
-            //add your simple division function 
-            break;
-
-        //modulus modulardivision function 
-        case 4:
-                
-            //add your modulardivision function
-            break;
-        
-        //sqrt function
-        case 5:
-            //add your sqrt function
-            break;
-
-
-        //percentage function
-        case 6:
-            // add your percentage function here.
-            break;
-
-
-        //cube root function
-        case 7:
-            //add your cuberoot function here
-            break;
-
-        
-        //cube exponential function
-        case 8:
-            //add exponential root function
-            break;
-
-        
-        
         default:
             break;
     }
