@@ -39,6 +39,58 @@
 4. Calculator takes the inputs using electronic components called logic gates.
 5. Each and every calculator may be programmed to calculate a different degree of accuracy so different calculators gives different  values.
 
+# 4W and 1H
+4W AND 1H OF CALCULATOR
+
+WHAT 
+
+Multipurpose calculator is an electronic calculator, designed to calculate problems in science, engineering and mathematics. They are widely used in both educational and professional fields.
+It generally stores the data of the previous results even if the new calculation is carried out.
+It includes the features such as
+Logarithmic functions, using both base 10 and base e
+It has trigonometric functions and hyperbolic functions
+Exponential and square root functions
+Constants values such as pi 
+It has scientific notations
+Matrix calculations
+
+
+
+WHY MULTIPURPOSE CALCULATOR IS USED?
+
+They have the quick access to mathematical functions
+It make solving difficult problems quicker and easier
+It has a built-in memory, which allows us to store certain equations
+
+
+WHEN
+
+Main features of a scientific calculator and encourages you to use your calculator, both for
+everyday arithmetic and for more complicated calculations that use the function keys as well.
+Key sequences, which describe which keys to press, are included in all the activities, so you
+can try out the ideas straightaway.
+
+WHERE
+
+Calculator is a part of everyone day to day life and it is used in many places from simple
+calculation to the most critical one
+
+HOW
+
+Calculators will accept the input, through the input keys and perform the required operations
+And if the input or the key were selected an incorrect way it displays a message ERROR and if inputs were clear calculator performs operations such as arithmetic, exponential and logical operations and displays the output based on the keys we selected.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,6 +1,18 @@
-# Scientific Calculator
+# Calculator
 
-1. A  calculator  is  a  mobile  app  that  performs  arithmetic  operations  on  numbers.  The  simplest calculators can do only addition, subtraction, multiplication, and division. 
-2.It is a portable device which is used to perform simple calculations to complex calculations.
-The purpose of the calculator is to do efficient computations.
+##  Calculator performs some basic functions mentioned below:
+|       no.   |     name          |                 description                   |
+|-------------|-------------------|-----------------------------------------------|
+|        1    | Addition          |  addition of numbers                          |
+|        2    | Subtraction       | subtracrtion of numbers                       |
+|        3    | multiplication    | multiplication of numbers with some exceptions|
+|        4    | Division          | division of numbers with specific exceptions  |
+|        5    | modulus           | modulus division of number provided by user   |
+|        6    | sqaure root       | returns square root of number provided by user|
+|        7    | percentage        | returns percentage of ration of two numbers   |
+|        8    | cube root         | returns the cube root of provided number      |
+|        9    | exponential       | return exponential value of two numbersspecified as base and exponent|
+
+## 
+
 
