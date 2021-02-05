@@ -14,11 +14,11 @@ int main()
 {
     float temp;
     //first input from user: a number
-    int A,B;
+    float A,B;
     printf("Hello user, please enter the 1st numbers \n");
-    scanf("%d", &A);
+    scanf("%f", &A);
     printf("Hello user, please enter the 2nd numbers \n");
-    scanf("%d", &B);
+    scanf("%f", &B);
     
 
     //users choice 
@@ -59,7 +59,7 @@ int main()
             break;
         case 7:
             temp=cuberoot(A);
-            printf("%f\n",temp);
+          //  printf("%f\n",temp);
             break;
         case 8:
             exponential(A);
