@@ -4,34 +4,10 @@
 
 int modular_division(int a,int b)
 {
-    int c;
-    c=a%b;
-    
-    if(a>b)
-    {
-        return c;
-    }
-
-    else
-    
-    {
-        return a;
+    if(b!=0){
+        printf("%d\n",a%b);
+        return a%b;
+    }else{
+        printf("invalid operation\n");
     }
 }
-/*
-float modular_division(float a,float b)
-{
-    float c;
-    c=a%b;
-    
-    if(a>b)
-    {
-        return c;
-    }
-
-    else
-    
-    {
-        return a;
-    }
-}*/

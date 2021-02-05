@@ -27,7 +27,7 @@ int main()
     int operation;
     printf("hello user, you can do operation now please proceed\n");
     printf("enter your choice for function as mentioned further:\n ");
-    printf("+: 0\n-: 1\nx: 2\n/: 3\nmod. division: 4\nsqrt: 5\npercentage: 6\ncube_root: 7\nexpo.: 8\nexit: 9");
+    printf("+: 0\n-: 1\nx: 2\n/: 3\nmod. division: 4\nsqrt: 5\npercentage: 6\ncube_root: 7\nexpo.: 8\nexit: 9\n");
     scanf("%d",&operation);
         
         

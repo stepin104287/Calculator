@@ -1,6 +1,6 @@
 #include "divide.h"
 #include <stdio.h>
-
+/*
 int divide_int(int a,int b)
 {
     int c;
@@ -17,21 +17,17 @@ int divide_int(int a,int b)
         return 0;
     }
 }
-
+*/
 
 float divide_float(float a,float b)
 {
-    float c;
-    c=a/b;
     
-    if(a>b)
-    {
-        return c;
-    }
-
-    else
+    if (b!=0){
+        printf("%f", a/b);
+        return a/b;
+        }
+        else{
+        printf("invalid operation");
+        }
     
-    {
-        return 0;
-    }
 }
