@@ -1,0 +1,51 @@
+all: run doc test clean 
+#all provides sequence of command
+SRC = main.c\
+src/add.c\
+src/cuberoot.c\
+src/divide.c\
+src/exponential.c\
+src/ modular_division.c\
+src/multiplication.c\
+src/percentage.c\
+src/squareroot.c\
+src/subtraction\
+
+#TEST_SRC=main.c test/test_invertercpp.c src/delay.c  src/error_cal.c  src/sequence.c  src/set_iload.c  src/Dutycycle.c unity/unity.c unity/unity.h unity/unity_internals
+
+
+BUILD=build
+
+TEST_OUTPUT=$(BUILD)/Test_$(PROJECT_NAME).out
+
+$(BUILD):
+	mkdir build
+
+INC = -Iunity -Iheader 
+
+
+PROJECT_NAME= Calculator.out
+
+
+TEST_OUTPUT= $(BUILD)/Test_$(PROJECT_NAME).out
+
+
+
+$(PROJECT_NAME): $(SRC)
+	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
+
+
+run: $(PROJECT_NAME)
+	./$(PROJECT_NAME)
+
+
+
+
+#test: $(BUILD)
+#	g++ $(SRC) $(INC) -o $(TEST_OUTPUT) 
+#
+#	./$(TEST_OUTPUT)
+	
+	
+clean:
+	rm -rf $(PROJECT_NAME) documentation/html
