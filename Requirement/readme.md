@@ -43,8 +43,8 @@
 
 STRENGTHS
 
-1.It is user friendly 
-2.Good battery backup
+1. It is user friendly
+2. Good battery backup
 3.Stores the data 
 4.It is convenient to carry
 5.Broad variety of products are available. 
@@ -61,7 +61,7 @@ OPPORTUNITIES
 1.Small size and less weight
 2.Its convenient to carry
 3.Replacement is easy
-
+ut and log back in to refresh your tok
 THREATS
 
 1.Their slower growth in technological innovation will bring a significant threat in the upcoming dynamic world.
