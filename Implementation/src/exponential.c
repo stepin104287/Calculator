@@ -3,12 +3,10 @@
 double exponential(float num)
 {
 float y;
-    y=num;
-const float e=2.718;    
-    
+y=num;
+const float e = 2.718;
 double res;
-
-
+res = 1;
 if(y>=0)
 {
 for(y;y>0;y--)
@@ -17,16 +15,17 @@ for(y;y>0;y--)
     }
     return res;
 }
-elseif(y<0)
+else if(y<0)
 {
  for(y;y<0;y++)
 {
     res= res/e;
     }
-    return res;   
+    return res;
 }
    else
-   {printf("Invalid Input");}
+   {printf("Invalid Input");
 
-return 0;
+return 0;}
 }
+
