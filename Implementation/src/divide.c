@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "divide.h"
 
-float divide_float(float a,float b)
+float divide(float a,float b)
 {
     
     if (b!=0){
@@ -11,6 +11,7 @@ float divide_float(float a,float b)
         }
         else{
         printf("invalid operation");
+        return 0;
         }
     
 }
