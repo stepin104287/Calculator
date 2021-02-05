@@ -1,4 +1,4 @@
-#include "division.h"
+#include "divide.h"
 
 void setUp()
 {    }
@@ -6,9 +6,9 @@ void setUp()
 void tearDown()
 {    }
 
-void test_division(void)
+void test_divide(void)
 {
-    TEST_ASSERT_EQUAL(3, division(9,3));
-    TEST_ASSERT_EQUAL(0, division(1,0));
-    TEST_ASSERT_EQUAL(1, division(10,10));
+    TEST_ASSERT_EQUAL(3, divide_int(9,3));
+    TEST_ASSERT_EQUAL(0, divide_int(0,1));
+    TEST_ASSERT_EQUAL(2.45, divide_float(10.3,4.2));
 }
