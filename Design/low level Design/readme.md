@@ -10,3 +10,5 @@ structural multiplication
 Behavioral percentage
 ![Percentage structural](https://github.com/99003537/Calculator/blob/main/Design/low%20level%20Design/Structural%20diagram%20of%20percentage.jpg)
 structural percentage
+![Addition](https://github.com/99003537/Calculator/blob/main/Design/low%20level%20Design/LLB_addition.png)
+Behavioral addition
