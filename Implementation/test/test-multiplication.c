@@ -1,8 +1,8 @@
 #include "multiplication.h"
-void setup()
-{
-
-}
+void setUp()
+{}
+void tearDown()
+{}
 void test_multiplication(void)
 {
     TEST_ASSERT_EQUAL(20,multiplication(4,5))
