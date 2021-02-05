@@ -26,6 +26,8 @@ Behavioural cube root
 Behavioural Diagram
 ![Square root](https://github.com/99003537/Calculator/blob/main/Design/low%20level%20Design/Square%20root%20Behavioural.png)
 Behavioural Diagram
+![Structural](https://github.com/99003537/Calculator/blob/main/Design/low%20level%20Design/Square%20root%20Structural.png)
+Sructural Diagram
 
 
 
