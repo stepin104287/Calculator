@@ -1,4 +1,4 @@
-AGING
+# AGING
 | PAST                           | PRESENT                              | FUTURE                              |
 | -------------------------------|--------------------------------------|-------------------------------------|              
 | Calculator using beads on      | Calculations are done in faster      |1.Advanced features would be used for|
@@ -7,7 +7,7 @@ AGING
 |ten sliding beads on each       |                                      |                                     |                   
 
 
-GRADATION IN TERMS OF COST
+# GRADATION IN TERMS OF COST
 |YEAR                     | MODEL                 |
 |-------------------------|-----------------------|
 |1972                     |TI-2500                |
