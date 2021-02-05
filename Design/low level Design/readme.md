@@ -1,1 +1,1 @@
-t
+![](images/multiplication_behavioral.png)
