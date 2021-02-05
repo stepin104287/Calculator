@@ -20,5 +20,7 @@ behavioral division
 structural division
 ![cube root](https://github.com/99003537/Calculator/blob/main/Design/low%20level%20Design/Cube%20root%20behavioural.jpeg)
 Behavioural cube root
-![cube root](https://github.com/99003537/Calculator/blob/main/Design/low%20level%20Design/Cuberoot%20structural.jpeg)
-Structural cube root
+![exponential](https://github.com/99003537/Calculator/blob/main/Design/low%20level%20Design/exponential%20structural.jpeg)
+Structural exponential
+![exponential](https://github.com/99003537/Calculator/blob/main/Design/low%20level%20Design/exponential%20behavioral.jpeg)
+Behavioural exponential
