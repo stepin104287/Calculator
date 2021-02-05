@@ -58,7 +58,8 @@ int main()
             percentage(A,B);
             break;
         case 7:
-            cuberoot(A);
+            float temp=cuberoot(A);
+            printf("%f\n",temp);
             break;
         case 8:
             exponential(A);
