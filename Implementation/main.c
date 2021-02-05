@@ -12,7 +12,7 @@
 
 int main()
 {
-
+    float temp;
     //first input from user: a number
     int A,B;
     printf("Hello user, please enter the 1st numbers \n");
@@ -58,7 +58,7 @@ int main()
             percentage(A,B);
             break;
         case 7:
-            float temp=cuberoot(A);
+            temp=cuberoot(A);
             printf("%f\n",temp);
             break;
         case 8:
