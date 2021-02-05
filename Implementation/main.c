@@ -46,7 +46,7 @@ int main()
             multiplication(A,B);
             break;
         case 3:
-            divide_int(A,B);
+            divide(A,B);
             break;
         case 4:
             modular_division(A,B);
