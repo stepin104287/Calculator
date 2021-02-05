@@ -1,23 +1,32 @@
-#include<stdio.h>
-#include<math.h>
-int main()
+#include<exponential.h>
+
+double exponential(float num)
 {
-double y;
+float y;
+    y=num;
+const float e=2.718;    
+    
 double res;
-scanf("%lf", &y);
 
-if(y>0)
+
+if(y>=0)
 {
-res=exp(2.17,y) ;
-printf("Answer= %lf", y);
-}
-else
+for(y;y>0;y--)
 {
-    printf("Enter Valid Input");
+    res= res * e;
+    }
+    return res;
 }
-
-
-
+elseif(y<0)
+{
+ for(y;y<0;y++)
+{
+    res= res/e;
+    }
+    return res;   
+}
+   else
+   {printf("Invalid Input");}
 
 return 0;
 }
