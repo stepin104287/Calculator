@@ -8,13 +8,13 @@
 
 
 # GRADATION IN TERMS OF COST
-|YEAR                     | MODEL                 |COST          | 
-|-------------------------|-----------------------|--------------|
-|1972                     |TI-2500                |$149.95       |
-|1985                     |fx-7000G               |$75           |
-|1988                     |TI-68                  |$55           |
-|1992                     |TI-85                  |$130          |
-|2020                     |TI-30XS                |$18.13        |
+|YEAR                     | MODEL                 |
+|-------------------------|-----------------------|
+|1972                     |TI-2500                |
+|1985                     |fx-7000G               |
+|1988                     |TI-68                  |
+|1992                     |TI-85                  |
+|2020                     |TI-30XS                | 
 
 
 # PROS
@@ -38,5 +38,9 @@
 3. It helps the user to do complex calculations accurately.
 4. Calculator takes the inputs using electronic components called logic gates.
 5. Each and every calculator may be programmed to calculate a different degree of accuracy so different calculators gives different  values.
+
+
+
+
 
 
