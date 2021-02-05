@@ -1,4 +1,4 @@
-#include <Percentage_operations.h>
+#include "percentage.h"
 
 float percentage(float num1, float num2)
 
