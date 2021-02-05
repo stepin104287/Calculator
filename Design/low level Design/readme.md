@@ -4,4 +4,6 @@ Behavioral Modular Division
 Structural Modular Division 
 ![multiplication Behvorial](https://github.com/99003537/Calculator/blob/main/Design/low%20level%20Design/multiplication_behavioral.png)
 Behavioral multiplication
+![multiplication structural](https://github.com/99003537/Calculator/blob/main/Design/low%20level%20Design/multiplication_structural.png)
+structural multiplication
 
