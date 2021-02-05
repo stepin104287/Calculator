@@ -6,4 +6,5 @@ Structural Modular Division
 Behavioral multiplication
 ![multiplication structural](https://github.com/99003537/Calculator/blob/main/Design/low%20level%20Design/multiplication_structural.png)
 structural multiplication
-![alt text](https://github.com/99003537/Calculator/blob/main/Design/low%20level%20Design/Brhavioural%20diagram%20%20of%20percentage.jpg)
+![Percentage behavioural](https://github.com/99003537/Calculator/blob/main/Design/low%20level%20Design/Behavioural%20diagram%20%20of%20percentage.jpg)
+![Percentage structural](https://github.com/99003537/Calculator/blob/main/Design/low%20level%20Design/Structural%20diagram%20of%20percentage.jpg)
