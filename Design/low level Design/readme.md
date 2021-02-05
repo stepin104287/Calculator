@@ -7,4 +7,6 @@ Behavioral multiplication
 ![multiplication structural](https://github.com/99003537/Calculator/blob/main/Design/low%20level%20Design/multiplication_structural.png)
 structural multiplication
 ![Percentage behavioural](https://github.com/99003537/Calculator/blob/main/Design/low%20level%20Design/Behavioural%20diagram%20%20of%20percentage.jpg)
+Behavioral percentage
 ![Percentage structural](https://github.com/99003537/Calculator/blob/main/Design/low%20level%20Design/Structural%20diagram%20of%20percentage.jpg)
+structural percentage
