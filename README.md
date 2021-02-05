@@ -1,4 +1,6 @@
 # Calculator
+## overview:
+  **calculator enables user to do multiple operations without interruptiing the user operations and  provides interractive user interface to user**
 
 ##  Calculator performs some basic functions mentioned below:
 |       no.   |     name          |                 description                   |
@@ -13,6 +15,6 @@
 |        8    | cube root         | returns the cube root of provided number      |
 |        9    | exponential       | return exponential value of two numbersspecified as base and exponent|
 
-## 
+
 
 
