@@ -9,6 +9,6 @@ float percentage(float num1, float num2)
    //scanf("%f %f",&num1,&num2);
    //total=((num2-num1)*100)/num1;
    total=((num1*100)/num2);
-   //printf("%f",total);
+   printf("%f\n",total);
    return total;
 }
