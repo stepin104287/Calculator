@@ -14,4 +14,5 @@ structural percentage
 Behavioral addition
 ![Addition](https://github.com/99003537/Calculator/blob/main/Design/low%20level%20Design/LLS_addition.png)
 Structural Addition
-![division]
+![division](https://github.com/99003537/Calculator/blob/main/Design/low%20level%20Design/behavioural%20division.png)
+structural division
