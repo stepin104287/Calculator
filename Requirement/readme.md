@@ -64,6 +64,7 @@ THREATS
 
 1. Their slower growth in technological innovation will bring a significant threat in the upcoming dynamic world.
 2. Competitors are more for products.
+3. Fault results for invalid input.
 
 
 # 4W and 1H
