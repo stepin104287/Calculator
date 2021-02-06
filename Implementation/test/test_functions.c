@@ -84,10 +84,12 @@ int test_main(void){
     UNITY_BEGIN();
     RUN_TEST(test_add());
     RUN_TEST(test_divide());
-    RUN_TEST(test_exponential());
-    RUN_TEST(test_modular_division());
-    RUN_TEST(test_multiplication());
-    RUN_TEST(test_squareroot());
-    RUN_TEST(test_subtraction());
+    RUN_TEST(test_cuberoot());
+    RUN_TEST(test_percentage();)
+    //RUN_TEST(test_exponential());
+    //RUN_TEST(test_modular_division());
+   // RUN_TEST(test_multiplication());
+    //RUN_TEST(test_squareroot());
+    //RUN_TEST(test_subtraction());
     return UNITY_END();
 }
