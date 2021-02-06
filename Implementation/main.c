@@ -1,21 +1,11 @@
 #include<stdio.h>
 #include <math.h>
-#include "subtraction.h"
-#include "add.h"
-#include "cuberoot.h"
-#include "divide.h"
-#include "exponential.h"
-#include "modular_division.h"
-#include "multiplication.h"
-#include "percentage.h"
-#include "squareroot.h"
-#include "test_functions.h"
-#include <math.h>
 
-/*
+#include "test_functions.h"
+
 #include "unity.h"
 #include "unity_internals.h"
-*/
+
 
 
 

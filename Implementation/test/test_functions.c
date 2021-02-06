@@ -1,6 +1,6 @@
 
-#include <CUnit/Basic.h>
-#include <CUnit/CUnit.h>
+#include "CUnit/Headers/Basic.h"
+#include "CUnit/Headers/CUnit.h"
 #include <stdio.h>
 
 #define PROJECT_NAME    "Calculator"
@@ -29,7 +29,7 @@ void test_divide(void);
 void test_add(void);
 void test_subtraction(void);
 
-
+/*
 
 int init_suite(void) {
     return 0;
@@ -51,7 +51,7 @@ int main() {
 
   
   
-  /* Add your test functions in this format for testing*/
+  Add your test functions in this format for testing
   CU_add_test(suite, "add", test_add);
   CU_add_test(suite, "subtract", test_subtraction);
   CU_add_test(suite, "multiply", test_multiplication);
@@ -70,7 +70,7 @@ int main() {
   CU_cleanup_registry();
   return 0;
 }
-
+*/
 
 
 

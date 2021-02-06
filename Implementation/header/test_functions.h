@@ -17,5 +17,5 @@ void test_divide(void);
 void test_add(void);
 void test_subtraction(void);
 
-int test_main();
+
 #endif
