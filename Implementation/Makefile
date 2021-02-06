@@ -1,9 +1,10 @@
 #all: run clean 
 #all provides sequence of command
+all: run doc test clean 
 
 PROJECT_NAME= Calculator.out
 
-BUILD=build
+
 
 SRC = main.c\
 src/add.c\
@@ -17,7 +18,7 @@ src/squareroot.c\
 src/subtraction.c\
 
 
-
+BUILD=build
 
 TEST_SRC=main.c\
 src/add.c\
