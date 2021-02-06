@@ -1,5 +1,10 @@
-all: run clean 
+#all: run clean 
 #all provides sequence of command
+
+PROJECT_NAME= Calculator.out
+
+BUILD=build
+
 SRC = main.c\
 src/add.c\
 src/cuberoot.c\
@@ -11,41 +16,49 @@ src/percentage.c\
 src/squareroot.c\
 src/subtraction.c\
 
-#TEST_SRC=main.c test/test_invertercpp.c src/delay.c  src/error_cal.c  src/sequence.c  src/set_iload.c  src/Dutycycle.c unity/unity.c unity/unity.h unity/unity_internals
 
+TEST_SRC=main.c\
+src/add.c\
+src/cuberoot.c\
+src/divide.c\
+src/exponential.c\
+src/modular_division.c\
+src/multiplication.c\
+src/percentage.c\
+src/squareroot.c\
+src/subtraction.c\
+test/test_functions.c \
 
-BUILD=build
 
 TEST_OUTPUT=$(BUILD)/Test_$(PROJECT_NAME).out
 
-$(BUILD):
-	mkdir build
 
 INC = -Iunity -Iheader 
 
 
-PROJECT_NAME= Calculator.out
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
+$(PROJECT_NAME):all
 
-#TEST_OUTPUT= $(BUILD)/Test_$(PROJECT_NAME).out
+.PHONY: run clean test  doc all
 
-
-
-$(PROJECT_NAME): $(SRC)
-	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
-
-
-run: $(PROJECT_NAME)
-	./$(PROJECT_NAME)
+all: $(SRC) $(BUILD)
+	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
 
 
 
+run:$(PROJECT_NAME)
+	./$(PROJECT_OUTPUT).out
 
-#test: $(BUILD)
-#	g++ $(SRC) $(INC) -o $(TEST_OUTPUT) 
-#
-#	./$(TEST_OUTPUT)
-	
-	
+
+
+
+test:$(BUILD)
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit
+	./$(TEST_OUTPUT)
+
 clean:
-	rm -rf $(PROJECT_NAME) documentation/html
+	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
+
+$(BUILD):
+	mkdir build

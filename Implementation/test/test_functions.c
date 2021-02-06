@@ -1,5 +1,9 @@
 
-#include<stdio.h>
+#include <stdio.h>
+
+#include <CUnit/Basic.h>
+#include <CUnit/CUnit.h>
+
 #include "subtraction.h"
 #include "add.h"
 #include "cuberoot.h"
@@ -14,10 +18,54 @@
 #include "unity.h"
 #include "unity_internals.h"
 
-
+/*
 void setUp(){}
 
 void tearDown(){}
+*/
+
+void test_cuberoot(void);
+void test_percentage(void);
+void test_exponential(void);
+void test_modular_division(void);
+void test_multiplication(void);
+void test_squareroot(void);
+void test_divide(void);
+void test_add(void);
+void test_subtraction(void);
+
+
+
+int main() {
+
+  if (CUE_SUCCESS != CU_initialize_registry())
+    return CU_get_error();
+
+  CU_pSuite suite = CU_add_suite(PROJECT_NAME, 0, 0);
+
+  
+  
+  /* Add your test functions in this format for testing*/
+  CU_add_test(suite, "add", test_add);
+  CU_add_test(suite, "subtract", test_subtraction);
+  CU_add_test(suite, "multiply", test_multiplication);
+  CU_add_test(suite, "divide", test_divide);
+  CU_add_test(suite, "cuberoot", test_cuberoot);
+  CU_add_test(suite, "percentage", test_percentage);
+  CU_add_test(suite, "exponential", test_exponential);
+  CU_add_test(suite, "modular_division", test_modular_division);
+  CU_add_test(suite, "divide", test_squareroot);
+  
+  CU_basic_set_mode(CU_BRM_VERBOSE);
+  
+  
+  CU_basic_run_tests();
+  
+  CU_cleanup_registry();
+  return 0;
+}
+
+
 
 
 void test_cuberoot(void)
@@ -73,20 +121,3 @@ void test_squareroot(void){
     TEST_ASSERT_EQUAL(2,2);
 }
 
-
-int test_main(void){
-
-    UNITY_BEGIN();
-
-    RUN_TEST(test_add());
-    RUN_TEST(test_divide());
-    RUN_TEST(test_cuberoot());
-    RUN_TEST(test_percentage());
-    RUN_TEST(test_exponential());
-    RUN_TEST(test_modular_division());
-    RUN_TEST(test_multiplication());
-    RUN_TEST(test_squareroot());
-    RUN_TEST(test_subtraction());
-    
-    return UNITY_END();
-}

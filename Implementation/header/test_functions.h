@@ -1,6 +1,9 @@
 #ifndef _TEST_FUNCTIONS_
 #define _TEST_FUNCTIONS_
-#include<stdio.h>
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdio_ext.h>
 #include<math.h>
 
 
