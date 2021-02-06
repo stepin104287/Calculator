@@ -1,9 +1,12 @@
 **TEAM**
 |       Name  |     Number          |           Feature         | Issues Raised | Issues Resolved|
 |-------------|---------------------|---------------------------|---------------|----------------|
-|        1    | 99003529            |  addition of numbers      |            1 |1               |
+|        Srushti   | 99003529            |  addition of numbers      |            1 |1               |
 
-
+**Test Status**
+|       Name  |     Number |       HL    |     LL       |Test cases passed | Test cases failed|
+|-------------|------------|-------------|--------------|------------------|------------------|
+|    Srushti  | 99003529 |    1         |  2               |        2|0|
 
 
 # Calculator
