@@ -16,19 +16,8 @@ void setUp(){}
 
 void tearDown(){}
 
-void test_Duycycle(void){                  //test function1
 
-    printf("\ntest_Dutycycle executed\n");
-
-    TEST_ASSERT_EQUAL(50, 100*Dutycycle(50));
-
-    TEST_ASSERT_EQUAL(100, 100*Dutycycle(100));
-
-}
-
-
-
-void test_add(void)
+void test_cuberoot(void)
 {
     //TEST_ASSERT_EQUAL(0.000000, cuberoot(0);
     TEST_ASSERT_EQUAL(5.000000, cuberoot(125));
@@ -76,7 +65,7 @@ void test_multiplication(void)
     TEST_ASSERT_EQUAL(15.400000,multiplication(2.2,7))
 }
 
-void test_add(void)
+void test_squareroot(void)
 {
     TEST_ASSERT_EQUAL(2, squareroot(4);
     TEST_ASSERT_EQUAL(0, squareroot(0));
@@ -93,9 +82,15 @@ int test_main(void){
     UNITY_BEGIN();
 
 
-    RUN_TEST(test_Duycycle);
-
-    RUN_TEST(test_set_iload);
+    RUN_TEST(test_add());
+    RUN_TEST(test_divide());
+    RUN_TEST(test_exponential());
+    RUN_TEST(test_modular_division());
+    RUN_TEST(test_multiplication());
+    RUN_TEST(test_squareroot());
+    RUN_TEST(test_subtraction());
+   
+    
 
     return UNITY_END();
 }

@@ -8,6 +8,7 @@
 #include "multiplication.h"
 #include "percentage.h"
 #include "squareroot.h"
+#include "test_functions.c"
 
 
 int main()
