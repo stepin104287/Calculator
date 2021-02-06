@@ -17,6 +17,8 @@ src/squareroot.c\
 src/subtraction.c\
 
 
+
+
 TEST_SRC=main.c\
 src/add.c\
 src/cuberoot.c\
@@ -57,9 +59,9 @@ run:$(PROJECT_NAME)
 
 
 
-test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit
-	./$(TEST_OUTPUT)
+#test:$(BUILD)
+#	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit
+#	./$(TEST_OUTPUT)
 
 clean:
 	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)

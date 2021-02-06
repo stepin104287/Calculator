@@ -1,19 +1,15 @@
-#include<stdio.h>
-#include <math.h>
-
-#include "test_functions.h"
-
-#include "unity.h"
-#include "unity_internals.h"
-
-
+#include "header/main_header.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 
 int main()
 {
     float temp;
+
     //first input from user: a number
     float A,B;
+
     printf("Hello user, please enter the 1st numbers \n");
     scanf("%f", &A);
     printf("Hello user, please enter the 2nd numbers \n");
