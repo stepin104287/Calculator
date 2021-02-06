@@ -3,11 +3,21 @@
 
 
 int modular_division(int a,int b)
+
 {
+    int result;
+    
     if(b!=0){
-        printf("%d\n",a%b);
-        return a%b;
-    }else{
+
+        result=a%b;
+
+        printf("%d\n",result);
+        return result;
+    }
+
+    else
+    {
         printf("invalid operation\n");
     }
+
 }
