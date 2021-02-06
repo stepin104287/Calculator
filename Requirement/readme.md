@@ -28,6 +28,7 @@
 3. Usage of calculator makes people more lazy.
 4.It limits the knowledge of user.
 5. Fault results for invalid input.
+7. Arthemetic computaion with negative numbers is not done.
 
  
 # DEFINE PRODUCT
