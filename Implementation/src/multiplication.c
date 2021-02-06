@@ -1,16 +1,14 @@
 #include "multiplication.h"
 //To perform multiplication of two numbers
 
-<<<<<<< Updated upstream
 
-=======
+
 int multiplication(int x,int y)
 {
     int product;
     product=x*y;
     return product;
 }
->>>>>>> Stashed changes
 float multiplication(float a,float b)
 {
     float result;
