@@ -22,6 +22,7 @@
 4. Useful to convert the units of measurement.
 5. It minimizes the counting error.
 6. Reduces human work.
+7. Computation with floating point is done.
 
 # CONS
 1. Calculation  for large numbers cannot be done since the calculator is of 8 bit
