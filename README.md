@@ -1,3 +1,14 @@
+**TEAM**
+|       Name  |     Number          |           Feature         | Issues Raised | Issues Resolved|
+|-------------|---------------------|---------------------------|---------------|----------------|
+|        Srushti   | 99003529            |  addition of numbers      |            1 |1               |
+
+**Test Status**
+|       Name  |     Number |       HL    |     LL       |Test cases passed | Test cases failed|
+|-------------|------------|-------------|--------------|------------------|------------------|
+|    Srushti  | 99003529 |    1         |  2               |        2|0|
+
+
 # Calculator
 ## overview:
   **calculator enables user to do multiple operations without interruptiing the user operations and  provides interractive user interface to user**
