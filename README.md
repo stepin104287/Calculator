@@ -4,6 +4,7 @@
 |        Srushti   | 99003529            |  addition of numbers      |            1 |1               |
 |        SatyaSindhu   | 99003534            |  division of numbers      |            1 |1               |
 |        Namratha      | 99003532             | modular division of numbers| 1           |1             |
+|        Harshitha     | 99003531             | multiplication of numbers  | 1           |1             |
 
 
 
@@ -13,6 +14,7 @@
 |    Srushti  | 99003529 |    1         |  2               |        2|0|
 |    SatyaSindhu  | 99003534 |    1         |  2               |        2|0|
 |   Namratha   |99003532    |    1          |2| 2|0|
+|   Harshitha  |99003531    |    1          |2| 2|0|
 
 # Calculator
 ## overview:
