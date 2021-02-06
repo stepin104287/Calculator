@@ -18,3 +18,4 @@
 
 
 
+![cppcheck-action](https://github.com/99003537/Calculator/workflows/cppcheck-action/badge.svg)
