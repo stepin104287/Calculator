@@ -18,6 +18,6 @@
 
 
 
-![cppcheck-action](https://github.com/99003537/Calculator/workflows/cppcheck-action/badge.svg)  
+![cppcheck-action](https://github.com/99003537/Calculator/workflows/cppcheck-action/badge.svg)     ![Valgrind](https://github.com/99003537/Calculator/workflows/Valgrind/badge.svg)
 
 
