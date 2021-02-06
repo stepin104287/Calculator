@@ -1,3 +1,11 @@
+**TEAM**
+|       Name  |     Number          |           Feature         | Issues Raised | Issues Resolved|
+|-------------|---------------------|---------------------------|---------------|----------------|
+|        1    | 99003529            |  addition of numbers      |            1 |1               |
+
+
+
+
 # Calculator
 ## overview:
   **calculator enables user to do multiple operations without interruptiing the user operations and  provides interractive user interface to user**
