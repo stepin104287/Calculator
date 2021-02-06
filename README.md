@@ -14,6 +14,7 @@
 |    Srushti  | 99003529 |    1         |  2               |        2|0|
 |    SatyaSindhu  | 99003534 |    1         |  2               |        2|0|
 |   Namratha   |99003532    |    1          |2| 2|0|
+|Dhyan Nandan T|99003538|1|2|2|0|
 
 # Calculator
 ## overview:
