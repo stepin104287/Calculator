@@ -1,4 +1,5 @@
 #include "exponential.h"
+#include <stdio.h>
 
 double exponential(float num)
 {

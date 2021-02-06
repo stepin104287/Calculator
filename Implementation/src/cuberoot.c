@@ -1,4 +1,5 @@
 #include "cuberoot.h"
+#include <stdio.h>
 //function to find the cuberoot
 double cuberoot(double x){
     double i,res, precision = 0.000001;

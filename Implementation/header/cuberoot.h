@@ -3,6 +3,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdio_ext.h>
+
 double cuberoot(double x);
 #endif

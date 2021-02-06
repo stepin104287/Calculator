@@ -1,4 +1,5 @@
 #include "add.h"
+#include <stdio.h>
 //funtion to add two numbers
 /*
 int add (int a, int b){
