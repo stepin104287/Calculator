@@ -9,6 +9,7 @@
 #include "multiplication.h"
 #include "percentage.h"
 #include "squareroot.h"
+#include "test_functions.h"
 
 #include "unity.h"
 #include "unity_internals.h"
