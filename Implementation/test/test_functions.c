@@ -71,10 +71,7 @@ void test_multiplication(void)
 void test_squareroot(void)
 {
     TEST_ASSERT_EQUAL(2, squareroot(4);
-    TEST_ASSERT_EQUAL(0, squareroot(0));
-    TEST_ASSERT_EQUAL(1.581, squareroot(2.5);
-}
-void test_subtraction(void){
+    TEST_ASSERT_EQUAL(0, squarer5.00
     TEST_ASSERT_EQUAL(1,subtraction(2,1));
 }
 */
