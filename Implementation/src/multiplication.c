@@ -9,6 +9,7 @@ int multiplication(int x,int y)
     product=x*y;
     return product;
 }
+/*
 float multiplication(float a,float b)
 {
     float result;
@@ -16,4 +17,4 @@ float multiplication(float a,float b)
     printf("%f\n",a*b);
     return result;
 }
-
+*/
