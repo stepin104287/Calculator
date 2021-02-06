@@ -9,9 +9,9 @@
 #include "percentage.h"
 #include "squareroot.h"
 #include "test/test_functions.c"
-#include "unity/unity.c"
-#include "unity/unity.h"
-#include "unity_internals.h"
+
+#include "../unity/unity.h"
+#include "../unity/unity_internals.h"
 
 
 
