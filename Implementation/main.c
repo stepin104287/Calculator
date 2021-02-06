@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <math.h>
 #include "subtraction.h"
 #include "add.h"
 #include "cuberoot.h"
@@ -8,11 +9,11 @@
 #include "multiplication.h"
 #include "percentage.h"
 #include "squareroot.h"
-#include "test/test_functions.c"
-#include "math.h"
+#include "test_functions.h"
+#include <math.h>
 
-#include "../unity/unity.h"
-#include "../unity/unity_internals.h"
+#include "unity.h"
+#include "unity_internals.h"
 
 
 
@@ -65,8 +66,7 @@ int main()
             percentage(A,B);
             break;
         case 7:
-            temp=cuberoot(A);
-          //  printf("%f\n",temp);
+            cuberoot(A);
             break;
         case 8:
             exponential(A);
