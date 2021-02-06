@@ -1,20 +1,15 @@
-TEST PLAN
+**TEST PLANS**
 
-| **ID** | **DESCRIPTION**| **PRE-CONDITION** | **EXPECTED INPUT** | **EXPECTED OUTPUT** |
-|--------|----------------|-------------------|--------------------|---------------------|
-| **HL\_01**|Addition of two numbers | The numbers must be real | Any Number | Result of the operation       |
-| **HL\_02** | Subtraction of two numbers | The numbers must be real | Any Number | Result of the operation  |
-| **HL\_03** | Multiplication of two numbers | The number must be real | Any Number | Result of the operation|
-| **HL\_04** | Division of two numbers | The number must be real | Any Number| Result of the operation       |
-|**HL\_05** | Modulus of a number | The numbers must be real | Any Number | Result of the operation          |
-| **HL\_06** | Square root of a number | The numbers must be real | Any Number | Result of the operation |
-| **HL\_07** | Percentage of a number | The numbers must be real | Any Number | Result of the operation |
-| **HL\_08** | Square root of a number | The numbers must be real | Any Number | Result of the operation |
-| **HL\_09** | Exponential of a number | The numbers must be real | Any Number | Result of the operation |
+| **Test ID** | **Description** | **Expected I/P** | **Expected O/P** | **Type of test case** |
+| ----------- | --------------- | ---------------- | ---------------- | --------------------- |
+| **HL\_01** | Enter the numbers in the calculator | User is able to enter numbers in the calculator | It will show the correct numbers entered by the user | Requirement based |
+| **HL\_02** | Selecting the operation | User is able to select the different switch cases | It will be able to display the correct operation chosen by the user | Requirement based |
+| **HL\_03** | Accuracy | Number of digits allowed to enter in the calculator for any operation | It will be to display the accurate result | Requirement based |
+| **HL\_04** | Check if the operations are working fine | User should be able to provide correct operants mentioned in the list. | It will be able to display correct result according to operation chosen | Requirement based |
  
  
  
- TEST CASES
+ **TEST CASES**
 
 | **ID**         | **DESCRIPTION**| **PRE-CONDITION** | **EXPECTED INPUT** | **EXPECTED OUTPUT** | 
 | -------------- | -------------- | ----------------- | ------------------ | ------------------- | 
