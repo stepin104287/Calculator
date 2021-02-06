@@ -14,7 +14,7 @@ src/modular_division.c\
 src/multiplication.c\
 src/percentage.c\
 src/squareroot.c\
-src/subtraction.c\
+src/subtraction.c
 
 
 TEST_SRC=main.c\
@@ -27,7 +27,7 @@ src/multiplication.c\
 src/percentage.c\
 src/squareroot.c\
 src/subtraction.c\
-test/test_functions.c \
+test/test_functions.c 
 
 
 TEST_OUTPUT=$(BUILD)/Test_$(PROJECT_NAME).out
@@ -59,6 +59,7 @@ test:$(BUILD)
 
 clean:
 	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
-
-$(BUILD):
+  
+  
+ $(BUILD):
 	mkdir build
