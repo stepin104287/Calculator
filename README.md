@@ -2,6 +2,7 @@
 |       Name  |     Number          |           Feature         | Issues Raised | Issues Resolved|
 |-------------|---------------------|---------------------------|---------------|----------------|
 |        Srushti   | 99003529            |  addition of numbers      |            1 |1               |
+|      Harshitha   | 99003531            |  multiplication of numbers |           1 |0
 |        SatyaSindhu   | 99003534            |  division of numbers      |            1 |1               |
 
 
@@ -11,6 +12,7 @@
 |       Name  |     Number |       HL    |     LL       |Test cases passed | Test cases failed|
 |-------------|------------|-------------|--------------|------------------|------------------|
 |    Srushti  | 99003529 |    1         |  2               |        2|0|
+|    Harshitha| 99003531 |    1         |  2               |        2|0|
 |    SatyaSindhu  | 99003534 |    1         |  2               |        2|0|
 
 
