@@ -1,8 +1,9 @@
 
-#include <stdio.h>
-
 #include <CUnit/Basic.h>
 #include <CUnit/CUnit.h>
+#include <stdio.h>
+
+#define PROJECT_NAME    "Calculator"
 
 #include "subtraction.h"
 #include "add.h"
@@ -13,16 +14,10 @@
 #include "multiplication.h"
 #include "percentage.h"
 #include "squareroot.h"
-#include "test_functions.h"
+//#include "test_functions.h"
 
-#include "unity.h"
-#include "unity_internals.h"
 
-/*
-void setUp(){}
 
-void tearDown(){}
-*/
 
 void test_cuberoot(void);
 void test_percentage(void);
@@ -33,6 +28,17 @@ void test_squareroot(void);
 void test_divide(void);
 void test_add(void);
 void test_subtraction(void);
+
+
+
+int init_suite(void) {
+    return 0;
+}
+
+int clean_suite(void) {
+    return 0;
+}
+
 
 
 
@@ -70,54 +76,52 @@ int main() {
 
 void test_cuberoot(void)
 {
-    TEST_ASSERT_EQUAL(5.00, 5.00);
+    CU_ASSERT(2==2);
    
 } 
 
 void test_percentage(void)
 {
-    TEST_ASSERT_EQUAL(15, 15);
+    CU_ASSERT(2==2);
     
 }
 
 void test_exponential(void)
 {
 
-TEST_ASSERT_EQUAL(2.178, 2.178);
-   
+    CU_ASSERT(2==2);
 }
 
 void test_modular_division(void)
 {
-    TEST_ASSERT_EQUAL(4, 4);
-    
+    CU_ASSERT(2==2); 
 }
 
 
 void test_multiplication(void)
 {
-    TEST_ASSERT_EQUAL(2,2;
+    CU_ASSERT(2==2);
 }
 
 void test_divide(void){
 
-    TEST_ASSERT_EQUAL(2,2);
+    CU_ASSERT(2==2);
 }
 
 
 void test_add(void){
 
-    TEST_ASSERT_EQUAL(2,2);
+    CU_ASSERT(2==2);
 }
 
 
 void test_subtraction(void){
-    TEST_ASSERT_EQUAL(2,2);
+    CU_ASSERT_EQUAL(2,2);
 }
 
 
 void test_squareroot(void){
 
-    TEST_ASSERT_EQUAL(2,2);
+    CU_ASSERT(2==2);
 }
 

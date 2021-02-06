@@ -14,7 +14,7 @@ src/modular_division.c\
 src/multiplication.c\
 src/percentage.c\
 src/squareroot.c\
-src/subtraction.c
+src/subtraction.c\
 
 
 TEST_SRC=main.c\
@@ -27,20 +27,24 @@ src/multiplication.c\
 src/percentage.c\
 src/squareroot.c\
 src/subtraction.c\
-test/test_functions.c 
+test/test_functions.c \
 
 
 TEST_OUTPUT=$(BUILD)/Test_$(PROJECT_NAME).out
 
+#-Iunity
 
-INC = -Iunity -Iheader 
+INC =  -Iheader 
 
 
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
+
+
 $(PROJECT_NAME):all
 
-.PHONY: run clean test  doc all
+
+.PHONY: all run clean test   
 
 all: $(SRC) $(BUILD)
 	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
