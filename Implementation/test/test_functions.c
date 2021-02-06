@@ -74,9 +74,10 @@ void test_squareroot(void){
 }
 
 
-int test_main(){
+int test_main(void){
 
     UNITY_BEGIN();
+
     RUN_TEST(test_add());
     RUN_TEST(test_divide());
     RUN_TEST(test_cuberoot());
@@ -86,5 +87,6 @@ int test_main(){
     RUN_TEST(test_multiplication());
     RUN_TEST(test_squareroot());
     RUN_TEST(test_subtraction());
+    
     return UNITY_END();
 }

@@ -63,7 +63,7 @@ int main()
             squareroot(A);
             break;
         case 6:
-            percentage(A,B);
+            //percentage(A,B);
             break;
         case 7:
             cuberoot(A);
