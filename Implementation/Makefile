@@ -1,9 +1,6 @@
 #all: run clean 
 #all provides sequence of command
-all: run doc test clean 
-
-PROJECT_NAME= Calculator.out
-
+all: run test clean 
 
 
 SRC = main.c\
@@ -16,6 +13,7 @@ src/multiplication.c\
 src/percentage.c\
 src/squareroot.c\
 src/subtraction.c\
+unity/unity.c 
 
 
 BUILD=build
@@ -31,42 +29,32 @@ src/percentage.c\
 src/squareroot.c\
 src/subtraction.c\
 test/test_functions.c \
+unity/unity.c 
 
+
+INC =  -Iheader -Iunity
+
+PROJECT_NAME= Calculator.out
 
 TEST_OUTPUT=$(BUILD)/Test_$(PROJECT_NAME).out
 
 #-Iunity
 
-INC =  -Iheader 
+
+$(PROJECT_NAME): $(SRC)
+	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
 
 
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+run: $(PROJECT_NAME)
+	./$(PROJECT_NAME)
+
+test: $(BUILD)
+	gcc $(SRC) $(INC) -o $(TEST_OUTPUT) 
+
+	./$(TEST_OUTPUT)
 
 
-
-$(PROJECT_NAME):all
-
-
-.PHONY: all run clean test   
-
-all: $(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
-
-
-
-run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).out
-
-
-
-
-#test:$(BUILD)
-#	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit
-#	./$(TEST_OUTPUT)
-
+	
 clean:
-	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
-  
-  
- $(BUILD):
-	mkdir build
+	rm -rf $(PROJECT_NAME) documentation/html
+
