@@ -27,6 +27,7 @@
 2. High cost.
 3. Usage of calculator makes people more lazy.
 4.It limits the knowledge of user.
+5. Fault results for invalid input.
 
  
 # DEFINE PRODUCT
@@ -64,7 +65,7 @@ THREATS
 
 1. Their slower growth in technological innovation will bring a significant threat in the upcoming dynamic world.
 2. Competitors are more for products.
-3. Fault results for invalid input.
+
 
 
 # 4W and 1H
